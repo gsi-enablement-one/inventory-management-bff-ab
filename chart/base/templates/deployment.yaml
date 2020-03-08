@@ -42,9 +42,9 @@ spec:
               port: http
           env:          
             - name: INGRESS_HOST
-              value: {{ include "starter-kit-chart.host" . }}
+              value: ""
             - name: PROTOCOLS
-              value: {{ include "starter-kit-chart.protocols" . }}
+              value: ""
             - name: SERVICE_URL
               value: {{ .Values.serviceUrl | quote }}              
             - name: LOG_LEVEL
