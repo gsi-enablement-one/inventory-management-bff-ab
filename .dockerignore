@@ -1,2 +1,4 @@
-.idea
+.git
+.cache
+
 node_modules
